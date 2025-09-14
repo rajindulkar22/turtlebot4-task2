@@ -12,6 +12,7 @@ cp /opt/ros/humble/share/turtlebot4_navigation/config/nav2.yaml ~/ros2_ws/config
 
 #step4 : In your nav2.yaml, inside:
 #Inside FollowPath
+
       max_vel_x: 0.15          # max forward speed (was 0.26)
       max_vel_theta: 0.3       # max rotation speed (was 1.0)
 
