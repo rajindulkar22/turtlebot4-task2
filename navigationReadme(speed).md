@@ -20,7 +20,8 @@ cp /opt/ros/humble/share/turtlebot4_navigation/config/nav2.yaml ~/ros2_ws/config
 
       acc_lim_theta: 0.1       # angular acceleration (was 3.2)
       decel_lim_theta: -0.1    # angular deceleration (was -3.2)
- #Inside velocity_smoother
+      #Inside velocity_smoother
+      
 velocity_smoother:
   ros__parameters:
     use_sim_time: True
