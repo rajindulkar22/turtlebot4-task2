@@ -12,3 +12,4 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 
 
+ros2 launch region_reporter region_nav.launch.py
