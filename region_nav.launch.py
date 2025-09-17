@@ -19,7 +19,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        # Start Nav2 localization (map_server + amcl + controller_server)
+        
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(tb4_nav_dir, 'launch', 'localization.launch.py')),
